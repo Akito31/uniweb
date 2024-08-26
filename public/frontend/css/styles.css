@@ -85,6 +85,43 @@
   box-sizing: border-box;
 }
 
+/* chyu myat's codes  */
+.card{
+	transition: all 0.4s;
+}
+
+.card:hover{
+	transform: scale(1.01);
+}
+table{
+    margin: 80px;
+}
+
+td{
+	text-align: left;
+	font-size: large;
+	padding: 1em;
+}
+.style{
+	font-family: "Times New Roman", Times, serif;;
+	font-size: x-large;
+	font-style: italic;
+	font-weight: bold;	
+	color: black;
+	width: 6em;
+}
+               
+tr{
+	height: 4em;
+}
+tr:hover {background-color: lightgrey;}
+
+.style1{
+	width: 2em	;
+}
+
+/* close chyu myat code  */
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
