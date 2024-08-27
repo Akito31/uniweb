@@ -36,6 +36,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::group (['auth', 'prefix'=>'backend','as'=>'backend.'],function(){
     Route::get('/',[App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
 
-   
+    Route::resource('categories',App\Http\Controllers\Admin\CategoryController::class);
+    Route::resource('users',App\Http\Controllers\Admin\UserController::class);
 
 });

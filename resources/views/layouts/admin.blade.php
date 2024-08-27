@@ -51,9 +51,13 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Posts
                             </a>
+                            <a class="nav-link" href="{{route('backend.categories.index')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                               Category
+                            </a>
                             <a class="nav-link" href="">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Academic
+                               Academic
                             </a>
                             <a class="nav-link" href="">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
@@ -64,7 +68,7 @@
                                Scholarship Form
                             </a>
 
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="{{route('backend.users.index')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Users
                             </a>
